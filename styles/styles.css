@@ -1,3 +1,7 @@
+:root {
+    --nav-a-color: white;
+    --aside-background-color: #eee;
+}
 nav {
     background-color: darkblue;
     padding: 10px;
