@@ -83,3 +83,13 @@ article {
     width: 125px;
 
 }
+
+.float-right {
+    float: right;
+    margin-left: 16px;
+    margin-bottom: 16px;
+}
+
+.clearfix {
+    clear: both;
+}
