@@ -44,6 +44,7 @@ nav,
 p,
 section,
 article {
+
     margin: 16px;
     padding: 8px;
 }
@@ -73,9 +74,20 @@ h1 {
     color: #fff;
     /* white text- make sure there is enough contrast with the background color */
 }
+h3 {
+margin: 1rem;
+border: 1px solid
+rgb(0 0 0 / 10%);
+padding: .5rem;
+background-color: #0496ff;
+text-align: center;
 
+}
 article {
     position: absolute;
+    top: 100px;
+    left: 11px;
+    background-color: white;
 }
 
 .hero article img {
@@ -92,4 +104,17 @@ article {
 
 .clearfix {
     clear: both;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.4rem;
+    display: block;
+    padding: 1rem;
+}
+div{
+    position: relative;
+}
+section{
+    color:white;
 }
