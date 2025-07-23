@@ -126,8 +126,8 @@ article {
     top: 311px;
     left: 11px;
     background-color: #fff;
-    padding-right: -100;
-    padding-left: -200;
+    padding-right: -100px;
+    padding-left: -200px;
 
 }
 
@@ -242,5 +242,5 @@ footer nav a img {
 footer .copyright {
     text-align: center;
     margin: 0;
-    font-size: 0.9;
+    font-size: 0.9rem;
 }
