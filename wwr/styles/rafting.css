@@ -41,11 +41,13 @@ h2 {
     font-family: var(--heading-font);
     color: var(--primary-color);
 }
+
 nav {
     display: flex;
     justify-content: space-evenly;
 
 }
+
 nav,
 p,
 section,
@@ -55,22 +57,26 @@ article {
     display: flex;
     justify-content: center;
 }
-.socialmedia{
+
+.socialmedia {
     display: flex;
     justify-content: flex-end;
     gap: 1rem;
     margin-right: 1rem;
 }
-.socialmedia a img{
+
+.socialmedia a img {
     text-decoration: none;
     width: 30px;
     height: auto;
 }
+
 .copyright {
-text-align: center;
-margin: 1rem;
-font-size: 0.9rem
+    text-align: center;
+    margin: 1rem;
+    font-size: 0.9rem
 }
+
 .hero {
     position: relative;
     text-align: center;
@@ -83,7 +89,7 @@ font-size: 0.9rem
     margin: 0 auto;
     width: 80%;
     height: auto;
-    
+
 }
 
 .hero h1 {
@@ -105,7 +111,7 @@ h1 {
     /* white text- make sure there is enough contrast with the background color */
 }
 
-section h3 {
+.section h3 {
     font-family: var(--heading-font);
     font-size: 1.5rem;
     text-align: center;
@@ -115,20 +121,20 @@ section h3 {
 }
 
 article {
-   display:block;
+    display: block;
     position: absolute;
     top: 311px;
     left: 11px;
     background-color: #fff;
     padding-right: -100;
     padding-left: -200;
-    
+
 }
 
 .hero article img {
     float: right;
     width: 150px;
-    
+
 
 }
 
@@ -213,7 +219,7 @@ footer {
     justify-content: center;
     align-items: center;
     padding: 1rem;
-    
+
 }
 
 footer nav {
@@ -226,12 +232,14 @@ footer nav a img {
     width: 30px;
     height: auto;
 }
-.adventure-time{ 
-display: grid;
-grid-auto-columns: 1fr 1fr 1fr 1fr 1fr;
+
+.adventure-time {
+    display: grid;
+    grid-auto-columns: 1fr 1fr 1fr 1fr 1fr;
 
 }
-footer .copyright{
+
+footer .copyright {
     text-align: center;
     margin: 0;
     font-size: 0.9;
