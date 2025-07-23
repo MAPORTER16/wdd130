@@ -234,8 +234,8 @@ footer nav a img {
 }
 
 .adventure-time {
-    display: grid;
-    grid-auto-columns: 1fr 1fr 1fr 1fr 1fr;
+    width: 111%;
+    height: auto;
 
 }
 
