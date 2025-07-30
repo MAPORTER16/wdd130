@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <meta name="description" content="a page where you can find info to contact the comapny">
+    <meta name="author" content="Matthew Porter">
+    <title>Contact Us- Rapid Surfing</title>
+    <link rel="stylesheet" href="styles/rafting.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <img src="images/wwr-logo.jpeg" alt="Rafting Company Logo">
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="trips.html">Trips</a>
+            <a href="contact.html">Contact Us</a>
+        </nav>
+    </header>
+    <main>
+        <h1>Contact Us</h1>
+        <section class="employee-profiles">
+            <figure>
+                <img src="images/support.jpg" alt="Employee 1">
+                <figcaption> Mark and Stacey: Guides</figcaption>
+            </figure>
+            <figure>
+                <img src="images/happy-people.jpg" alt="Employee 2">
+                <figcaption>Allen, Timothy, Greg: Safety Experts</figcaption>
+            </figure>
+        </section>
+
+        <section class="contact-section">
+
+            <!-- Contact Info -->
+            <div class="contact-info">
+                <h2>Send Us a Message</h2>
+                <p>Rapid Surfing</p>
+                <p>Phone number:999-123-4567</p>
+                <p>Email: rapidsurfing@gmail.com</p>
+            </div>
+
+            <!-- Contact Form -->
+            <div class="contact-form">
+                <form action="/submit-message" methode="post">
+                    <fieldset>
+                        <legend>Contact Form</legend>
+                        <div class="form-item">
+                            <label for="name">Your Name:</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-item">
+                            <label for="email">Your Email:</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-item">
+                            <label for="message">Your Message:</label>
+                            <textarea id="message" name="message" rows="r" required></textarea>
+                        </div>
+                        <button type="submit">Send Message</button>
+                    </fieldset>
+                </form>
+            </div>
+        </section>
+
+
+        <!-- Map Section -->
+        <div class="map">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d6341.780939912293!2d-111.30507002971305!3d40.79036696469542!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1753829554099!5m2!1sen!2sus"
+                width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+        </div>
+
+
+
+    </main>
+    <footer>
+        <p>© 2025 Rapid Surfing, Matthew Porter</p>
+        <nav class="socialmedia">
+            <a href="https://facebook.com">
+                <img src="images/facebook.webp" alt="Facebook">
+            </a>
+            <a href="https://twitter.com">
+                <img src="images/x.webp" alt="Twitter">
+            </a>
+            <a href="https://instagram.com">
+                <img src="images/instagram.webp" alt="Instagram">
+            </a>
+        </nav>
+
+    </footer>
+</body>
+
+</html>
