@@ -318,9 +318,8 @@ h2 {
 .contact-section {
     display: grid;
     grid-template-columns: 1fr 2fr;
-    gap: 2rem;
     margin: 2rem auto;
-    width: 80%;
+    width: 90%;
 }
 
 .contact-info {
@@ -334,6 +333,7 @@ h2 {
 }
 
 .contact-info p {
+    white-space: nowrap;
     margin: 0.5rem 0;
 }
 
@@ -378,7 +378,9 @@ h2 {
     color: white;
     border: none;
     padding: 0.75rem 1.5rem;
+    border-radius: 5px;
     cursor: pointer;
+    font-size: 1rem;
 
 }
 
@@ -399,4 +401,27 @@ h2 {
 
 label {
     color: var(--primary-color)
+}
+
+.radio-group {
+    display: flex;
+    gap: 1rem;
+    margin-top: 0.5rem;
+}
+
+.radio-group input[type="radio"] {
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+}
+
+.radio-group label {
+    font-size: 1rem;
+    color: var(--primary-color)
+}
+
+.contact-form input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+    margin-right: 0.5rem;
 }

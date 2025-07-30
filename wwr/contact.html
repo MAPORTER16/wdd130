@@ -43,7 +43,7 @@
             <div class="contact-info">
                 <h2>Send Us a Message</h2>
                 <p>Rapid Surfing</p>
-                <p>Phone number:999-123-4567</p>
+                <p>Phone Number:999-123-4567</p>
                 <p>Email: rapidsurfing@gmail.com</p>
             </div>
 
@@ -52,18 +52,44 @@
                 <form action="/submit-message" methode="post">
                     <fieldset>
                         <legend>Contact Form</legend>
+                        <!-- Name Input-->
                         <div class="form-item">
                             <label for="name">Your Name:</label>
                             <input type="text" id="name" name="name" required>
                         </div>
+                        <!-- Email Input -->
                         <div class="form-item">
                             <label for="email">Your Email:</label>
                             <input type="email" id="email" name="email" required>
                         </div>
+                        <!-- Purpose of Message -->
+                        <div class="form-item">
+                            <label>Purpose of Message:</label>
+                            <div class="radio-group">
+                                <input type="radio" id="general-inquiry" name="purpose" value="general-inquiry"
+                                    required>
+                                <label for="general-inquiry">General Inquiry</label>
+
+                                <input type="radio" id="reservation-question" name="purpose"
+                                    value="reservation-question">
+                                <label for="reservation-questions">Reservation Question</label>
+
+                                <input type="radio" id="website-suggestion" name="purpose" value="website-suggestion">
+                                <label for="website-suggestion">Website Suggestion</label>
+                            </div>
+                        </div>
+                        <!-- Message Input-->
                         <div class="form-item">
                             <label for="message">Your Message:</label>
-                            <textarea id="message" name="message" rows="r" required></textarea>
+                            <textarea id="message" name="message" rows="4" required></textarea>
                         </div>
+
+                        <!-- Newsletter Subscription -->
+                        <div class="form-item">
+                            <input type="checkbox" id="subscribe" name="subscribe">
+                            <label for="subscribe">Please subscribe me to the monthly newsletter</label>
+                        </div>
+                        <!-- Submit Button -->
                         <button type="submit">Send Message</button>
                     </fieldset>
                 </form>
